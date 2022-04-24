@@ -48,12 +48,33 @@ to {background-position: -100px 0px;background-size:2750px;}
   text-transform:uppercase;
 }
 
+.button-container {
+  display: block;
+  text-align: center;
+  margin-top: 15.25424%;
+}
+
+.button {
+  padding: 1em;
+  width: 49.15254%;
+  border: none;
+  border-radius: 0.5em;
+  background-color: cornflowerblue;
+  font-size: 130%;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover, .button:focus {
+  background-color: #5289eb;
+  color: black;
+}
+
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 999;
-    background-color: cornflowerblu;
+    background-color: cornflowerblue;
     text-align: center;
   }
